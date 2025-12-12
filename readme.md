@@ -10,7 +10,6 @@ A modern, full-stack employee feedback system with admin dashboard.
 - ✅ Department filtering
 - ✅ Responsive design
 
-<<<<<<< HEAD
 ### Bonus Features
 - 🔐 **Admin Authentication** (username: admin, password: admin123)
 - 🔍 **Advanced Search** across name, message, and department
@@ -41,7 +40,6 @@ A modern, full-stack employee feedback system with admin dashboard.
 ### 1. Clone and Setup
 ```bash
 git clone <https://github.com/perera99-msd/Employee-Dashboard>
-=======
 ## Links
 - Repository: https://github.com/perera99-msd/Employee-Dashboard
 - Issues: https://github.com/perera99-msd/Employee-Dashboard/issues
@@ -68,4 +66,3 @@ Fork → branch → PR. Report issues: https://github.com/perera99-msd/Employee-
 
 ## Contact
 perera99-msd — https://github.com/perera99-msd
->>>>>>> ecc36557016978ae86595c7370f76d7159ca1ad3
