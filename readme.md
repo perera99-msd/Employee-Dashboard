@@ -1,68 +1,56 @@
-# Employee Feedback Dashboard
+```markdown
+# Employee Dashboard — Frontend
 
-A modern, full-stack employee feedback system with admin dashboard.
+A small frontend application built with React and Vite to manage and view employee data.
 
-## ✨ Features
+Prerequisites
+- Node.js 18+ (or LTS) and npm/yarn/pnpm
+- An API backend running (see repo root or backend README)
 
-### Core Features
-- ✅ Employee feedback submission form
-- ✅ Admin dashboard to view all feedback
-- ✅ Department filtering
-- ✅ Responsive design
+Tech stack
+- React (hooks)
+- Vite (dev server & build)
+- ESLint (code quality)
+- (Optional) Tailwind CSS or your preferred styling library
 
-### Bonus Features
-- 🔐 **Admin Authentication** (username: admin, password: admin123)
-- 🔍 **Advanced Search** across name, message, and department
-- 📄 **Pagination** with 10 items per page
-- 🎨 **Modern UI** with Tailwind CSS
-- 📱 **Mobile-responsive** design
-
-## 🏗️ Tech Stack
-
-### Frontend
-- React 18
-- Vite (Build tool)
-- Tailwind CSS (Styling)
-- Axios (HTTP client)
-- React Router (Routing)
-
-### Backend
-- Node.js + Express.js
-- SQLite (Database)
-- Express Session (Authentication)
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 16+ 
-- npm or yarn
-
-### 1. Clone and Setup
-```bash
-git clone <https://github.com/perera99-msd/Employee-Dashboard>
-## Links
-- Repository: https://github.com/perera99-msd/Employee-Dashboard
-- Issues: https://github.com/perera99-msd/Employee-Dashboard/issues
-- Pull Requests: https://github.com/perera99-msd/Employee-Dashboard/pulls
-- Actions: https://github.com/perera99-msd/Employee-Dashboard/actions
-- License: https://github.com/perera99-msd/Employee-Dashboard/blob/main/LICENSE
-
-## Quick start
-1. Clone:
+Quick setup
+1. Clone the repository:
    git clone https://github.com/perera99-msd/Employee-Dashboard.git
-   cd Employee-Dashboard
-
-2. If this is a Node.js project (check for package.json):
+2. Change into the frontend directory:
+   cd Employee-Dashboard/frontend
+3. Install dependencies:
    npm install
-   npm run dev      # or: npm start
-   npm run build    # build for production (if available)
+   # or
+   yarn install
+   # or
+   pnpm install
+4. Create a .env file (see Environment variables below)
+5. Start the development server:
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+6. Build for production:
+   npm run build
+7. Preview the production build locally:
+   npm run preview
 
-3. If this is a static site (no package.json):
-   open index.html in the repo root or serve it:
-   npx http-server . -p 8080
+Environment variables
+- VITE_API_BASE_URL - Base URL of the backend API (e.g. http://localhost:5000/api)
 
-## Contributing
-Fork → branch → PR. Report issues: https://github.com/perera99-msd/Employee-Dashboard/issues
+Notes
+- This frontend uses Vite's fast refresh and HMR during development.
+- If ESLint or TypeScript config is present, follow the project's lint and type rules before committing.
+- Adjust the API base URL in .env to point to your running backend.
 
-## Contact
-perera99-msd — https://github.com/perera99-msd
+Contributing
+- Open issues or PRs for bugs and enhancements. Keep changes small and focused.
+
+License
+- Check the repository root for license information.
+
+---
+
+If you want different wording, extra sections (tests, CI, usage examples), or want me to update the root README too, tell me and I'll make the changes.
+```
