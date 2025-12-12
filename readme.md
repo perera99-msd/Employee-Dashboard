@@ -1,21 +1,42 @@
 # Employee Feedback Dashboard
 
-A simple internal dashboard for employees to submit feedback and admins to view it.
+A modern, full-stack employee feedback system with admin dashboard.
 
-## Features
-- Employee feedback submission form
-- Admin dashboard to view all feedback
-- Filter feedback by department
-- Responsive design
+## ✨ Features
 
-## Tech Stack
-- **Frontend**: React, Vite, Tailwind CSS, Axios
-- **Backend**: Node.js, Express.js
-- **Database**: SQLite
+### Core Features
+- ✅ Employee feedback submission form
+- ✅ Admin dashboard to view all feedback
+- ✅ Department filtering
+- ✅ Responsive design
 
-## Setup Instructions
+### Bonus Features
+- 🔐 **Admin Authentication** (username: admin, password: admin123)
+- 🔍 **Advanced Search** across name, message, and department
+- 📄 **Pagination** with 10 items per page
+- 🎨 **Modern UI** with Tailwind CSS
+- 📱 **Mobile-responsive** design
 
-### 1. Clone the repository
+## 🏗️ Tech Stack
+
+### Frontend
+- React 18
+- Vite (Build tool)
+- Tailwind CSS (Styling)
+- Axios (HTTP client)
+- React Router (Routing)
+
+### Backend
+- Node.js + Express.js
+- SQLite (Database)
+- Express Session (Authentication)
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 16+ 
+- npm or yarn
+
+### 1. Clone and Setup
 ```bash
-git clone <your-repo-url>
-cd employee-feedback
+git clone <https://github.com/perera99-msd/Employee-Dashboard>
